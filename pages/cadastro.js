@@ -40,6 +40,8 @@ const user ={
 
 const { message } = response 
 
-alert(response.message)
+alert(message)
+
+window.location.href = "../index.html"
 
 }
